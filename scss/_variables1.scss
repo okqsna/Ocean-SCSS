@@ -1,0 +1,75 @@
+$whiteColor:#fff;
+$btnHeaderBgColor:darkcyan;
+$colorGrey:#f5f5f5;
+$colorRed:red;
+$colorBlack:#000;
+.main-wrapper{
+    font-family: 'Roboto', sans-serif;
+    header{
+        .top-wrapper{
+            nav{
+                a{
+                    color: $whiteColor;
+                }
+            }
+        }
+        section{
+            h1{
+                color: $whiteColor;
+            }
+            .btn-top{
+                background-color: $btnHeaderBgColor;
+                color: $whiteColor;
+            }
+        }
+    }
+    main{
+        .post-list{
+            article{
+                background-color: $colorGrey;
+                .post{
+                    .post-description{
+                        color: $colorRed;
+                        border-bottom: 3px solid grey;
+                    }
+                    h3{
+                        color: $btnHeaderBgColor;
+                    }
+                    p{
+                        color: $colorBlack;
+                    }
+                }
+                .btn{
+                    background-color: $btnHeaderBgColor;
+                    color: $whiteColor;
+                }
+            }
+        }
+        .contact-form{
+            form{
+                .inputs{
+                    .inputsItem{
+                        label{
+                            color: $btnHeaderBgColor;
+                        }
+                        input{
+                            border:1px solid $btnHeaderBgColor;
+                        }
+                    }
+                }
+            .txtarea{
+                label{
+                    color: $btnHeaderBgColor;
+                }
+                textarea{
+                    border:1px solid $btnHeaderBgColor;
+                }
+                .sendBtn{
+                    background-color: $btnHeaderBgColor;
+                    color:$whiteColor;
+                }
+            }
+            }
+        }
+    }
+}
