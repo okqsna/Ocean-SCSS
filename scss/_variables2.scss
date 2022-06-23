@@ -1,0 +1,112 @@
+$whiteColor:#fff;
+$btnHeaderBgColor:darkblue;
+$colorCyan:darkcyan;
+$colorGrey:#f5f5f5;
+$colorDarkGrey:darkgrey;
+$colorRed:red;
+$colorBlack:#000;
+.main-wrapper{
+    font-family: 'Gentium Book Basic', serif;
+    background-color: $colorGrey;
+    header{
+        background-color:darkturquoise;
+        .top-wrapper{
+            nav{
+                a{
+                    color: $colorRed;
+                    font-size: 18px;
+                    padding-right: 10px;
+                }
+            }
+        }
+        section{
+            h1{
+                color: $colorRed;
+                font-size: 26px;
+            }
+            .btn-top{
+                background-color: $btnHeaderBgColor;
+                color: $whiteColor;
+                font-size: 18px;
+            }
+        }
+    }
+    main{
+        background-color: $colorGrey;
+        .post-list{
+            background-color: $colorGrey;
+            article{
+                background-color: $whiteColor;
+                .post{
+                    .post-description{
+                        color: $colorDarkGrey;
+                        font-weight: 300;
+                        border-bottom: 2px solid $colorDarkGrey;
+                        font-size: 18px;
+                    }
+                    h3{
+                        color: $colorCyan;
+                        font-size: 26px;
+                    }
+                    p{
+                        color: $colorDarkGrey;
+                        line-height: 20px;
+                        font-size: 18px;
+                    }
+                }
+                .btn{
+                    background-color: $btnHeaderBgColor;
+                    color: $whiteColor;
+                }
+            }
+        }
+        .about{
+            div{
+                h1{
+                    color: $colorDarkGrey;
+                }
+                p{
+                    color: $colorDarkGrey;
+                    line-height: 20px;
+                }
+            }
+        }
+        .contact-form{
+            h1{
+                color: $colorDarkGrey;
+            }
+            h4{
+                color: $colorDarkGrey;
+            }
+            form{
+                .inputs{
+                    .inputsItem{
+                        label{
+                            color: $colorDarkGrey;
+                            font-size: 18px;
+                        }
+                        input{
+                            background-color:$colorGrey;
+                            border:1px solid $colorDarkGrey
+                        }
+                    }
+                }
+            .txtarea{
+                label{
+                    color: $colorDarkGrey;
+                    font-size: 18px;
+                }
+                textarea{
+                    border:1px solid $colorDarkGrey;
+                    background-color: $colorGrey;
+                }
+                .sendBtn{
+                    background-color: $btnHeaderBgColor;
+                    color:$whiteColor;
+                    font-size: 18px;
+                }
+            }
+            }
+        }
+    }
+}
